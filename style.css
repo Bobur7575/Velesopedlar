@@ -1,0 +1,158 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+list-style: none;
+text-decoration: none;
+}
+
+
+body {
+    font-family: sans-serif; 
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333; 
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px; 
+    margin: 0 auto; 
+    padding: 20px 0;
+}
+
+nav{
+display: flex;
+gap: 32px;
+justify-content: space-around ;
+}
+
+.nav_text{
+color: white;
+display: flex;
+gap: 32px;
+}
+
+.nav_text:hover{
+color: black;
+
+
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+
+.main-header {
+    background-color: #f37d21;
+    color: #ffffff;
+    padding: 40px 0; 
+    background-size: cover;
+    text-align: left; 
+}
+
+.main-header .logo {
+    font-size: 1.8em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    display: inline-block; 
+}
+
+.main-header h1 {
+    color: #ffffff;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.main-header p {
+    margin-bottom: 20px;
+    max-width: 500px; 
+}
+
+.btn {
+    background-color: #ffffff; 
+    color: #f37d21; 
+    border: none;
+    padding: 12px 30px; 
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase; 
+}
+
+.btn:hover {
+    background-color: #eeeeee; 
+}
+
+.track-section {
+    padding: 50px 0;
+    background-color: #6c757d; 
+}
+
+.track-section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff; 
+    font-size: 2em;
+}
+
+.bike-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.bike-card {
+    background-color: #5a6268;
+    border: 1px solid #495057; 
+    border-radius: 8px; 
+    color: #ffffff; 
+}
+
+
+.bike-card .img-placeholder {
+    background-color: #adb5bd; 
+    height: 180px; 
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.bike-card p {
+    margin-bottom: 8px;
+    font-size: 0.9em;
+}
+
+.bikerasmi{
+display: flex;
+width: 1072;
+height: 1072;
+top: -284px;
+left: 848px;
+
+}
+
+.bike-card p:first-of-type { 
+    font-size: 0.8em;
+    opacity: 0.8; /* Sal xiraroq */
+}
+
+
+/* Footer stillari */
+footer {
+    background-color: #343a40; /* To'q kulrang/qora fon */
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px; /* Yuqoridagi elementdan joy tashlash */
+    font-size: 0.9em;
+}
